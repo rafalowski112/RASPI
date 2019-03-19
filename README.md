@@ -1,4 +1,4 @@
-# raspi
+# raspi   (PYTHON 3 / HTML)
 Mikroprocesorowy system alarmowy sterowany smartfonem 
 
 Celem projektu jest wykonanie zdalnie sterowanego systemu alarmowego opartego na mikroprocesorze. 
