@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <style>
+                body {background-color: #360C1C;}
+        </style>
+</head>
+<body>
+
+
+    <form action="/LOGIN" method="POST">
+            <center> <br>
+            <input type="number" name="password"
+            value="{{ request.form.password }}"
+            style="height: 60px;
+            width: 150px;
+            font-size:65px;
+            font-family: calibri;">
+
+            <br><br>
+
+            <input type="submit"
+            value="LOGIN"
+            style="height: 60px;
+            width: 150px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: calibri;">
+            </center>
+    </form>
+
+</body>
+</html>
